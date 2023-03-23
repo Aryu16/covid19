@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  color: rgb(243, 239, 239);
+}
+
+body {
+  font-family: "lato";
+  width: 100%;
+  margin: auto;
+  background-image: url("./Images/bgcovid.jpg");
+  background-attachment: fixed;
+  opacity: 0.9;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+  color: black;
+}
+
+h2 {
+  opacity: 1;
+  padding-bottom: 10px;
+  text-align: left;
+  color: black;
+}
+
+#country {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  column-gap: 30px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding: 10px 20px;
+  background-color: #171717;
+}
+
+h3 {
+  width: 100vw;
+  font-size: 20px;
+  opacity: 1;
+}
+
+h4 {
+  font-size: 13px;
+  opacity: 1;
+}
+
+h4:nth-child(3) {
+  color: white;
+  opacity: 1;
+}
